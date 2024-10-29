@@ -1,8 +1,8 @@
 const path = require('path')
 module.exports = {
   version: "2.0",
-  title: "omnigen",
-  description: "A unified image generation model that you can use to perform various tasks, including but not limited to text-to-image generation, subject-driven generation, Identity-Preserving Generation, and image-conditioned generation. https://huggingface.co/spaces/Shitao/OmniGen",
+  title: "OmniGen-Forge",
+  description: "",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
